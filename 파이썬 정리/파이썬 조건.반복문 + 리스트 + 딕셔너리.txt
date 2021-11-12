@@ -1,0 +1,54 @@
+리스트(list)
+C언어의 배열같은 느낌
+
+list_a = [1, 2, 3]
+list_a.appned(3)//(요소) 맨뒤에 인덱스(요소)를 추가한다. *append
+list_a = [1, 2, 3, 3]
+len(list_a) = 4//리스트의 인덱스 숫자를 표현한다 len(*)
+list_a.insert(2,3)//(위치,요소) 위치와 입력한 인덱스(요소만을 제거한다) *insert
+list_a = [1, 3, 2, 3, 3]
+del list_a[1]//입력한 인덱스만 제거한다 del *
+list_a = [3, 2, 3, 3]
+list_a.pop//마지막 요소만 제거한다 *pop
+list_a = [3, 2, 3]
+list_a.clear()//요소를 전부 제거한다 *clear
+
+반복문
+for문
+range함수와 같이 사용하기
+
+for i in range(100): i가 100이 될때까지 반복하기
+
+for 변수 in 리스트: 리스트에 있는 인덱스(요소)가 하나씩 변수에 들어가 리스트에 있는 모든 인덱스(요소)가 끝날 때
+까지 반복한다.
+
+
+
+조건문
+
+if문
+
+if number >0
+
+elif 
+else
+
+반복문
+
+for문
+
+딕셔너리
+grade = {'pey' : 10, 'julliet' : 99}
+grade['pey']
+>>10
+grade['julliet']
+>>99
+#여기서 'pey'가 키이고
+#10이 밸류다.
+
+키 삭제 할 때
+del grade['pey']
+
+
+
+

@@ -1,0 +1,2 @@
+파이썬 오류 정리
+IndexError: tuple index out of range : 
